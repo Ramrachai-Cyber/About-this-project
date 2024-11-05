@@ -1,13 +1,8 @@
 public class MainApp {
     public static void main(String[] args) {
-        // Initialize the application
         System.out.println("Launching Mobile App...");
-
-        // Example user creation and feature execution
         User user = new User("Jane Doe", "password456");
         user.displayUserInfo();
-
-        // Example of executing a feature
         Feature dashboard = new Feature("Dashboard");
         dashboard.execute();
     }
